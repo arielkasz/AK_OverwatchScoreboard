@@ -4,31 +4,31 @@ let scoreGuest = document.getElementById("score-guest")
 console.log(scoreGuest)
 let score = 0
 
-function victoryHome(){
+function victoryHome() {
     score += 1
     scoreHome.textContent = score
 }
 
-function defeatHome(){
+function defeatHome() {
     score -= 1
     scoreHome.textContent = score
 }
 
-function divaHome(){
+function divaHome() {
     score += 2
     scoreHome.textContent = score
 }
-function victoryAway(){
+function victoryAway() {
     score += 1
     scoreGuest.textContent = score
 }
 
-function defeatAway(){
+function defeatAway() {
     score -= 1
     scoreGuest.textContent = score
 }
 
-function divaAway(){
+function divaAway() {
     score += 2
     scoreGuest.textContent = score
 }
