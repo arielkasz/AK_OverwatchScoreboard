@@ -1,7 +1,5 @@
 let scoreHome = document.getElementById("score-home")
-console.log(scoreHome)
 let scoreGuest = document.getElementById("score-guest")
-console.log(scoreGuest)
 let score = 0
 
 function victoryHome() {
